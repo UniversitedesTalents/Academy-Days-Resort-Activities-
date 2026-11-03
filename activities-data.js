@@ -1,0 +1,77 @@
+window.RESORT_ACTIVITIES = {
+  "timeZone": "Europe/Madrid",
+  "start": "17:00",
+  "end": "19:00",
+  "activities": [
+    {
+      "id": "padel",
+      "title": "Padel",
+      "tagline": "Better as a team.",
+      "description": "Find your partner, step onto the court and let the rallies begin. A little competition, plenty of good company.",
+      "category": "Play & connect",
+      "detail": "2 courts",
+      "image": "assets/padel.jpg",
+      "alt": "Players enjoying a padel game"
+    },
+    {
+      "id": "tennis",
+      "title": "Tennis",
+      "tagline": "Meet you on court.",
+      "description": "Trade a few rallies with your colleagues and enjoy a fresh change of pace after the day’s sessions.",
+      "category": "Play & connect",
+      "detail": "2 courts",
+      "image": "assets/tennis.jpg",
+      "alt": "Tennis players on court"
+    },
+    {
+      "id": "fitness",
+      "title": "Fitness",
+      "tagline": "Find your energy.",
+      "description": "Make a little time to move. Recharge with a workout and head into the evening feeling refreshed.",
+      "category": "Move & recharge",
+      "detail": "17:00–19:00",
+      "image": "assets/stretching.jpg",
+      "alt": "A group taking part in a fitness session"
+    },
+    {
+      "id": "swimming",
+      "title": "Swimming pool",
+      "tagline": "Take the day at your own pace.",
+      "description": "A refreshing dip or a quiet moment by the water. Give yourself a little breathing space between the day and the evening.",
+      "category": "Pause & unwind",
+      "detail": "17:00–19:00",
+      "image": "assets/swimming.jpg",
+      "alt": "A guest relaxing in the Magna Marbella pool"
+    }
+  ],
+  "freeActivities": [
+    {
+      "id": "football",
+      "title": "Football",
+      "description": "Get a team together and enjoy a friendly kickabout.",
+      "image": "assets/football.jpg",
+      "alt": "A football player on an outdoor resort court"
+    },
+    {
+      "id": "basketball",
+      "title": "Basketball",
+      "description": "Shoot a few hoops, or turn it into a friendly game.",
+      "image": "assets/basketball.jpg",
+      "alt": "Friends shooting hoops on an outdoor basketball court"
+    },
+    {
+      "id": "table-tennis",
+      "title": "Table tennis",
+      "description": "Quick rallies, good company. Who’s up for the next game?",
+      "image": "assets/table-tennis.jpg",
+      "alt": "Friends playing table tennis beneath palm trees"
+    },
+    {
+      "id": "petanque",
+      "title": "Pétanque",
+      "description": "Take your best shot and enjoy a relaxed game together.",
+      "image": "assets/petanque.jpg",
+      "alt": "Colleagues enjoying pétanque"
+    }
+  ]
+};
