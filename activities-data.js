@@ -9,7 +9,7 @@ window.RESORT_ACTIVITIES = {
       "tagline": "Better as a team.",
       "description": "Find your partner, step onto the court and let the rallies begin. A little competition, plenty of good company.",
       "category": "Play & connect",
-      "detail": "2 courts",
+      "detail": "Courts 7 & 8",
       "image": "assets/padel.jpg",
       "alt": "Players enjoying a padel game"
     },
@@ -19,7 +19,7 @@ window.RESORT_ACTIVITIES = {
       "tagline": "Meet you on court.",
       "description": "Trade a few rallies with your colleagues and enjoy a fresh change of pace after the day’s sessions.",
       "category": "Play & connect",
-      "detail": "2 courts",
+      "detail": "Courts 17 & 18",
       "image": "assets/tennis.jpg",
       "alt": "Tennis players on court"
     },
@@ -29,7 +29,7 @@ window.RESORT_ACTIVITIES = {
       "tagline": "Find your energy.",
       "description": "Make a little time to move. Recharge with a workout and head into the evening feeling refreshed.",
       "category": "Move & recharge",
-      "detail": "17:00–19:00",
+      "detail": "Fitness Room",
       "image": "assets/stretching.jpg",
       "alt": "A group taking part in a fitness session"
     },
@@ -39,9 +39,10 @@ window.RESORT_ACTIVITIES = {
       "tagline": "Take the day at your own pace.",
       "description": "A refreshing dip or a quiet moment by the water. Give yourself a little breathing space between the day and the evening.",
       "category": "Pause & unwind",
-      "detail": "17:00–19:00",
+      "detail": "Indoor Pool",
       "image": "assets/swimming.jpg",
-      "alt": "A guest relaxing in the Magna Marbella pool"
+      "alt": "A guest relaxing in the Magna Marbella pool",
+      "end": "20:00"
     }
   ],
   "freeActivities": [
