@@ -6,7 +6,17 @@
   if(a.image){const photo=document.createElement('div');photo.className='photo-wrap';const img=document.createElement('img');img.src=a.image;img.alt=a.alt||a.title;img.loading='lazy';img.width=800;img.height=500;photo.append(img);if(!small){const time=document.createElement('span');time.className='time';time.textContent=data.start + '–' + (a.end || data.end);photo.append(time)}article.append(photo)}
   const body=document.createElement('div');body.className='card-body';
   const fields=small?[['h3','',a.title],['p','description',a.description]]:[['p','category',a.category],['h3','',a.title],['p','tagline',a.tagline],['p','description',a.description],['p','card-detail',a.detail]];
-  fields.forEach(([tag,cls,text])=>{const el=document.createElement(tag);el.className=cls;el.textContent=text;body.append(el)});article.append(body);return article;
+  fields.forEach(([tag, cls, text]) => {
+   const el = document.createElement(tag);
+   el.className = cls;
+   el.textContent = text;
+   if (cls === 'card-detail') {
+    el.insertAdjacentHTML('afterbegin', '<svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.3"/></svg>');
+   }
+   body.append(el);
+  });
+  article.append(body);
+  return article;
  }
  data.activities.forEach(a=>document.querySelector('#activityGrid').append(card(a)));
  data.freeActivities.forEach(a=>document.querySelector('#freeGrid').append(card(a,true)));
