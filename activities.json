@@ -35,13 +35,13 @@
     },
     {
       "id": "swimming",
-      "title": "Swimming pool",
+      "title": "Indoor Swimming Pool",
       "tagline": "Take the day at your own pace.",
-      "description": "A refreshing dip or a quiet moment by the water. Give yourself a little breathing space between the day and the evening.",
+      "description": "Take a refreshing dip in the indoor pool (heated) or unwind by the water.",
       "category": "Pause & unwind",
       "detail": "Indoor Pool",
-      "image": "assets/swimming.jpg",
-      "alt": "A guest relaxing in the Magna Marbella pool",
+      "image": "assets/indoor-swimming-pool.jpg",
+      "alt": "Indoor swimming pool at Club Med Magna Marbella",
       "end": "20:00"
     }
   ],
